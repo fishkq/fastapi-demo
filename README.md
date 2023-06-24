@@ -1,38 +1,40 @@
 # fastapi-demo
 
-## Fix Install Problem
+## Fix Install Problems
 
-Create App
+1. Create App
 
 ```bash
 pip install cookiecutter
 cookiecutter https://github.com/tiangolo/full-stack-fastapi-postgresql
 ```
 
-Fix Install Problem
+2. Run Command
 
 ```bash
 docker-compose up -d
 ```
 
-backend
+3. Fix Run Problems
 
-* [python-poetry](https://github.com/tiangolo/full-stack-fastapi-postgresql/issues/460#issuecomment-1233736453)
+* backend
 
-frontend
+    * [python-poetry](https://github.com/tiangolo/full-stack-fastapi-postgresql/issues/460#issuecomment-1233736453)
 
-* [Cannot find module 'fork-ts-checker-webpack-plugin-v5'](https://github.com/tiangolo/full-stack-fastapi-postgresql/issues/471#issuecomment-1186579813)
+* frontend
 
-startup
+    * [Cannot find module 'fork-ts-checker-webpack-plugin-v5'](https://github.com/tiangolo/full-stack-fastapi-postgresql/issues/471#issuecomment-1186579813)
 
-backend dies
+4. Fix Startup Problems
 
-* [module 'h11' has no attribute 'Event'](https://github.com/tiangolo/full-stack-fastapi-postgresql/issues/509#issuecomment-1501141868)
-* [Need to use "importlib-metadata<5.0" to use Celery](https://github.com/tiangolo/full-stack-fastapi-postgresql/issues/487#issue-1478021366)
+* backend dies
 
-flower dies
+    * [module 'h11' has no attribute 'Event'](https://github.com/tiangolo/full-stack-fastapi-postgresql/issues/509#issuecomment-1501141868)
+    * [Need to use "importlib-metadata<5.0" to use Celery](https://github.com/tiangolo/full-stack-fastapi-postgresql/issues/487#issue-1478021366)
 
-* [Celery Dies(https://github.com/tiangolo/full-stack-fastapi-postgresql/issues/403#issuecomment-884887002)
+* flower dies
+
+    * [Celery Dies](https://github.com/tiangolo/full-stack-fastapi-postgresql/issues/403#issuecomment-884887002)
 
 ## Backend Requirements
 
